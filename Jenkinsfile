@@ -8,7 +8,7 @@ pipeline {
         }
         stage('hello') {
             steps {
-                sh 'Demo.py $X_VALUE$ $Y_VALUE$'
+                sh 'python3 Demo.py $X_VALUE$ $Y_VALUE$'
             }
         }
     }
